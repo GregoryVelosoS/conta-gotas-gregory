@@ -30,6 +30,11 @@ header{
     width: 430px;
     height: 180px;
     background-color: white;
+    text-align: center;
+}
+
+#logos > img{
+    width: 60%;
 }
 
 #menu{
@@ -58,8 +63,86 @@ header{
 
 main{
     height: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#video, #redes, #login, #apoio{
+    background-color: white;
+}
+
+#geral{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+#video{
+    height: 495px;
+    width: 45%;
+}
+
+#lado-direito{
+    height: 495px;
+    width: 50%;
+}
+
+#redes{
+    height: 35%;
+}
+
+#login{
+    height: 64%;
+}
+
+#apoio{
+    height: 190px;
+    width: 90%;
+}
+
 
 footer{
     height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.item{
+    background-color: white;
+    height: 440px;
+    width: 440px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.item > p{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.item > img{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.item > h2{
+    text-align: start;
+    margin: 20px;
+    font-weight: 400;
 }
