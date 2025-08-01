@@ -84,26 +84,83 @@ main{
 #video{
     height: 495px;
     width: 45%;
+    text-align: center;
+}
+
+#video > iframe{
+    margin-top: 20px;
 }
 
 #lado-direito{
     height: 495px;
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #redes{
     height: 35%;
+    text-align: center;
 }
 
 #login{
     height: 64%;
+    text-align: center;
+}
+
+a{
+    color: #3bacd9;
+}
+
+.opcoes{
+    width: 70%;
+    height: 40px;
+    background-color: #2484bf;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.opcoes::placeholder{
+    text-align: center;
+    color: white;
+}
+
+#mais{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: #4fce2d;
+    width: 20%;
+    height: 40px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:active{
+    background-color: #2484bf;
 }
 
 #apoio{
     height: 190px;
-    width: 90%;
+    width: 95%;
+    text-align: center;
 }
 
+#apoio > img{
+    margin-top: -40px;
+}
 
 footer{
     height: 550px;
